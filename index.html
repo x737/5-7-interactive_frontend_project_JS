@@ -29,8 +29,8 @@
             </button>
         </nav>
         </div>
-    <!--the main body-->
-        <div class ="container">
+        <!--the main body-->
+        <div class ="container" style = "padding-bottom:80px; padding-top: 80px">
             <div class="row row-cols-1 row-cols-md-3">
                 <div class="col mb-4">
                     <div class="card h-100">
@@ -86,8 +86,40 @@
                     </div>
                     </div>
                 </div>
+            </div>  
+
+            <!--searchbar row-->        
+            <div class = "d-flex flex-row flex-sm-column justify-content-between navbar navbar-dark bg-dark">
+                <div class = "col">
+                    <span class="navbar-brand text-white">What's more interesting?</span>
+                </div>
+                <div class = "col">
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Stock </button>
+                    </form>
+                </div>
             </div>
+
+            <!--show search result-->
+            <div class="card">
+                <div class="card-header">
+                    Quote
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                    <div class="jumbotron jumbotron-fluid">
+                        <div class="container">
+                            <h1 class="display-4">Fluid jumbotron</h1>
+                            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                        </div>
+                    </div>
+                    <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                    </blockquote>
+                </div>
+            </div>       
         </div>
+    
     <!--set up footer-->
         <nav class="navbar fixed-bottom navbar-light bg-dark">
             <a class="navbar-brand" href="#">Fixed bottom</a>
